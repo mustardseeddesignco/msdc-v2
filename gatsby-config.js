@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Mustard Seed Design Company - Portfolio`,
   },
   plugins: [
     {
@@ -20,9 +20,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `MSDC - @mustardseeddesignco-msdc-portfolio`,
+        short_name: `MSDC Portfolio`,
+        description: `Portfolio for Graphic Design / Photography / Web Dev Firm`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
@@ -34,7 +34,7 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/favicon.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
